@@ -4,11 +4,12 @@
  * print_char - function print c
  *
  * @list: arguments
+ *
+ * Return: 1
  */
 int print_char(va_list list)
 {
-	int ptr = va_arg(list, int);
-	write(1, &ptr, 1);
+	write_c(va_arg(list, int));
 	return (1);
 }
 
@@ -16,6 +17,8 @@ int print_char(va_list list)
  * print_string - function print c
  *
  * @list: arguments
+ *
+ * Return: i
  */
 int print_string(va_list list)
 {
@@ -28,20 +31,20 @@ int print_string(va_list list)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		write(1, &str[i], 1);
+		write_c(str[i]);
 	}
 	return (i);
 }
 
 /**
- * print_per - function print c  
+ * print_per - function print c
  *
- * @list: arguments 
+ * @list: arguments
+ *
+ * Return: 1
  */
 int print_per(__attribute__((unused))va_list list)
 {
-	char ptr = '%';
-
-	write(1, &ptr,1);
+	write_c('%');
 	return (1);
 }

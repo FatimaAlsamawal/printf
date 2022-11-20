@@ -10,7 +10,6 @@
  */
 int _printf(const char *format, ...)
 {
-	va_list args;
 	int done;
 
 	convert_to conver[] = {
@@ -19,6 +18,7 @@ int _printf(const char *format, ...)
 		{"%", print_per},
 		{NULL, NULL}
 	};
+	va_list args;
 
 	if (format == NULL)
 		return (-1);
