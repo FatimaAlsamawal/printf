@@ -27,5 +27,6 @@ int print_dec(va_list d);
 int print_int(va_list i);
 int print_bin(va_list b);
 int print_p(va_list p);
+int print_unsigned(va_list u);
 
 #endif
