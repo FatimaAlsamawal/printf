@@ -5,7 +5,7 @@
 
 /**
  * print_unsigned - prints unsigned
- * @d: unsigned to be printed
+ * @u: unsigned to be printed
  * Return: size
  */
 

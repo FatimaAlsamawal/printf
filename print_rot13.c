@@ -1,7 +1,7 @@
 # include "main.h"
 /**
- * rot13 - main function
- * @y: The argument pointer.
+ * print_rot13 - main function
+ * @R: The argument pointer.
  *
  * Description: This function prints the rot13'ed string.
  *
