@@ -9,7 +9,7 @@
  */
 int print_char(va_list list)
 {
-	write_c(va_arg(list, int));
+	_putchar(va_arg(list, int));
 	return (1);
 }
 
@@ -31,7 +31,7 @@ int print_string(va_list list)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		write_c(str[i]);
+		_putchar(str[i]);
 	}
 	return (i);
 }
@@ -45,6 +45,6 @@ int print_string(va_list list)
  */
 int print_per(__attribute__((unused))va_list list)
 {
-	write_c('%');
+	_putchar('%');
 	return (1);
 }
