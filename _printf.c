@@ -19,7 +19,6 @@ int _printf(const char *format, ...)
 		{"i", print_int},
 		{"d", print_dec},
 		{"b", print_bin},
-		{"p", print_p},
 		{"u", print_unsigned},
 		{"r", print_rev},
 		{"R", print_rot13},
