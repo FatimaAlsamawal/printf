@@ -15,7 +15,7 @@ int _printf(const char *format, ...)
 	convert_to conver[] = {
 		{"c", print_char},
 		{"s", print_string},
-		{"%", print_per},
+		{"%", print_percent},
 		{"i", print_int},
 		{"d", print_dec},
 		{"b", print_bin},
