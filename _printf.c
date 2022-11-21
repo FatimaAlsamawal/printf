@@ -21,6 +21,8 @@ int _printf(const char *format, ...)
 		{"b", print_bin},
 		{"p", print_p},
 		{"u", print_unsigned},
+		{"r", print_rev},
+		{"R", print_rot13},
 		{NULL, NULL}
 	};
 	va_list args;
