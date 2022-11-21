@@ -1,4 +1,5 @@
-#printf project with team
+<h1> printf project with team </h1>
 
-Auth: FatimaAlsamawal
-Auth: ZuhairAhmed0
+<h3>Authors</h3>
+<strong>Auth: </strong><a href="https://github.com/FatimaAlsamawal">FatimaAlsamawal</a>
+<strong>Auth: </strong><a href="https://github.com/ZuhairAhmed0">ZuhairAhmed0</a>
