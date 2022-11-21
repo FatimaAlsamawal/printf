@@ -23,5 +23,7 @@ int print_char(va_list);
 int print_string(va_list);
 int print_per(va_list);
 int write_c(char c);
+int print_dec(va_list d);
+int print_int(va_list i);
 
 #endif
