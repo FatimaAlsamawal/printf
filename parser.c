@@ -34,7 +34,7 @@ int parser(const char *format, convert_to f_list[], va_list arg_list)
 				{
 					_putchar(format[i]);
 					_putchar(format[i + 1]);
-					done = printed_chars + 2;
+					done = done + 2;
 				}
 				else
 					return (-1);
