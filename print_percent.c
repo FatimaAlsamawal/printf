@@ -7,8 +7,10 @@
  *
  * Return: 1
  */
-int print_percent(__attribute__((unused))va_list list)
+int print_percent(va_list list)
 {
+	(void)list;
+
 	_putchar('%');
 	return (1);
 }
