@@ -22,6 +22,7 @@ int _printf(const char *format, ...);
 int print_char(va_list list);
 int print_string(va_list list);
 int print_percent(va_list list);
+int print_octal(va_list list);
 int _putchar(char c);
 int print_dec(va_list d);
 int print_int(va_list i);
@@ -30,5 +31,13 @@ int print_p(va_list p);
 int print_unsigned(va_list u);
 int print_rot13(va_list R);
 int print_rev(va_list r);
+
+/**
+ * helper functions
+ */
+char *rev_string(char *s);
+char *_memcpy(char *dest, char *src, unsigned int n);
+void write_base(char *str);
+unsigned int base_len(unsigned int num, int base);
 
 #endif
