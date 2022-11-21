@@ -8,7 +8,6 @@
  * @d: decimal to be printed
  * Return: size
  */
-
 int print_dec(va_list d)
 {
 int len, pow, j, digit, n, count, num;
