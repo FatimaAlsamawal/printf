@@ -26,5 +26,6 @@ int _putchar(char c);
 int print_dec(va_list d);
 int print_int(va_list i);
 int print_bin(va_list b);
+int print_p(va_list p);
 
 #endif
