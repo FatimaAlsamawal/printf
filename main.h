@@ -33,6 +33,7 @@ int print_rot13(va_list R);
 int print_rev(va_list r);
 int print_hex(va_list list);
 int print_heX(va_list list);
+int printf_exclusive_string(va_list list);
 
 /* helper functions */
 char *rev_string(char *s);

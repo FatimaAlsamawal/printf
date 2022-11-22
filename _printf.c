@@ -19,6 +19,7 @@ int _printf(const char *format, ...)
 		{"o", print_octal},
 		{"x", print_hex},
 		{"X", print_heX},
+		{"S", printf_exclusive_string},
 		{"i", print_int},
 		{"d", print_dec},
 		{"b", print_bin},
