@@ -31,6 +31,8 @@ int print_p(va_list p);
 int print_unsigned(va_list u);
 int print_rot13(va_list R);
 int print_rev(va_list r);
+int print_hex(va_list list);
+int print_heX(va_list list);
 
 /**
  * helper functions
@@ -39,5 +41,6 @@ char *rev_string(char *s);
 char *_memcpy(char *dest, char *src, unsigned int n);
 void write_base(char *str);
 unsigned int base_len(unsigned int num, int base);
+int hex_check(int num, char x);
 
 #endif
