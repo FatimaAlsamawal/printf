@@ -34,9 +34,7 @@ int print_rev(va_list r);
 int print_hex(va_list list);
 int print_heX(va_list list);
 
-/**
- * helper functions
- */
+/* helper functions */
 char *rev_string(char *s);
 char *_memcpy(char *dest, char *src, unsigned int n);
 void write_base(char *str);
